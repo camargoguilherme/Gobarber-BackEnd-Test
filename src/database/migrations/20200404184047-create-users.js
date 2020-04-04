@@ -20,9 +20,9 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      provaider: {
+      provider: {
         type: Sequelize.BOOLEAN,
-        defualtValue: false,
+        defaultValue: false,
         allowNull: false,
       },
       created_at: {
